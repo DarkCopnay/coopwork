@@ -1,0 +1,19 @@
+{
+  "name": "coopwork",
+  "version": "0.0.5",
+  "description": "beta",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log(1);"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkCopnay/coopwork.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DarkCopnay/coopwork/issues"
+  },
+  "homepage": "https://github.com/DarkCopnay/coopwork#readme"
+}
