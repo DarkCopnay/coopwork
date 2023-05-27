@@ -11,6 +11,13 @@ body {
 }
 
 .step_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 960px;
   background-image: url(/img/bg.png);
   background-position: 100% 50%;
@@ -65,4 +72,50 @@ body {
   text-decoration: none;
   color: white;
   margin: 0 15px;
+}
+.step_1 .step_1_info {
+  margin-top: 11%;
+  margin-left: 10%;
+}
+.step_1 .step_1_info h2 {
+  color: white;
+  font-size: 50px;
+  line-height: 140%;
+}
+.step_1 .step_1_info .step_1_info_times {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 30px;
+}
+.step_1 .step_1_info .step_1_info_times span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 102px;
+  height: 112px;
+  color: white;
+  background-color: #121212;
+  margin-top: 20px;
+  font-size: 36px;
+  font-weight: 700;
+}
+.step_1 .step_1_info .step_1_info_times span p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.278);
 }
