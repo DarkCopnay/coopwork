@@ -244,3 +244,47 @@ body {
   height: 6px;
   background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
 }
+
+.mine_step {
+  background-image: url(/img/bg-mine.png);
+  background-repeat: no-repeat;
+}
+.mine_step .step_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 1000px;
+  padding-top: 200px;
+  gap: 134px;
+}
+.mine_step .step_2 .step_2_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.mine_step .step_2 .step_2_info h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 45px;
+  color: white;
+}
+.mine_step .step_2 .step_2_info p {
+  max-width: 636px;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}

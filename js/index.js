@@ -28,7 +28,5 @@ function Time(day = 0, hours = 0, minutes = 0, scends = 0) {
     }, 1000)
 }
 
-// function ProgerBar()
-
 
 Time(18, 5, 30, 55);
