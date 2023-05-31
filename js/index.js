@@ -29,4 +29,4 @@ function Time(day = 0, hours = 0, minutes = 0, scends = 0) {
 }
 
 
-Time(18, 5, 30, 55);
+Time(18, 5, 30, 5);
