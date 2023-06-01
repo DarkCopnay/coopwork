@@ -19,7 +19,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 960px;
-  background-image: url(/img/bg.png);
+  background-image: url(/coopwork/img/bg.png);
   background-position: 100% 1%;
   background-size: 120% 120%;
 }
