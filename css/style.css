@@ -526,6 +526,146 @@ body {
           transform: scale(1.1);
   background-color: rgba(128, 128, 128, 0.7);
 }
+.mine_step .step_6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 153px;
+}
+.mine_step .step_6 > img {
+  margin-bottom: 31px;
+  -webkit-animation: loadingrotate 8s linear infinite;
+          animation: loadingrotate 8s linear infinite;
+}
+.mine_step .step_6 .step_6_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.mine_step .step_6 .step_6_header h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+}
+.mine_step .step_6 .step_6_header p {
+  max-width: 411px;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 160%;
+  margin-top: 30px;
+}
+.mine_step .step_6 .step_6_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 80px;
+}
+.mine_step .step_6 .step_6_content .step_6_content_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.mine_step .step_6 .step_6_content .step_6_content_right .step_6_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: end;
+  margin-bottom: 87px;
+  margin-top: 5px;
+}
+.mine_step .step_6 .step_6_content .step_6_content_right .step_6_info h2 {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 15px;
+}
+.mine_step .step_6 .step_6_content .step_6_content_right .step_6_info p {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+}
+.mine_step .step_6 .step_6_content .step_6_content_right .step_6_info .step_6_info_line {
+  width: 40px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-left: 20px;
+}
+.mine_step .step_6 .step_6_content .step_6_content_line {
+  width: 6px;
+  height: 677px;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+.mine_step .step_6 .step_6_content .step_6_content_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 100px;
+}
+.mine_step .step_6 .step_6_content .step_6_content_left .step_6_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 95px;
+}
+.mine_step .step_6 .step_6_content .step_6_content_left .step_6_info .step_6_info_line {
+  width: 40px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-right: 20px;
+}
+.mine_step .step_6 .step_6_content .step_6_content_left .step_6_info h2 {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 15px;
+}
+.mine_step .step_6 .step_6_content .step_6_content_left .step_6_info p {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  line-height: 160%;
+}
 
 @-webkit-keyframes loadingrotate {
   0% {
