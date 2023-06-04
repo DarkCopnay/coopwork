@@ -19,7 +19,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 960px;
-  background-image: url(/img/bg.png);
+  background-image: url(/coopwork/img/bg.png);
   background-position: 100% 1%;
   background-size: 120% 120%;
 }
@@ -246,7 +246,7 @@ body {
 }
 
 .mine_step {
-  background-image: url(/img/bg-mine.png);
+  background-image: url(/coopwork/img/bg-mine.png);
   background-repeat: no-repeat;
 }
 .mine_step .step_2 {
@@ -665,6 +665,168 @@ body {
   font-weight: 400;
   color: white;
   line-height: 160%;
+}
+.mine_step .step_7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 200px;
+}
+.mine_step .step_7 h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 113px;
+}
+.mine_step .step_7 h2 > img {
+  -webkit-animation: loadingrotate 8s linear infinite;
+          animation: loadingrotate 8s linear infinite;
+}
+.mine_step .step_7 .step_7_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mine_step .step_7 .step_7_content .step_7_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 100px;
+}
+.mine_step .step_7 .step_7_content .step_7_info img {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+}
+.mine_step .step_7 .step_7_content .step_7_info > h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+.mine_step .step_7 .step_7_content .step_7_info p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+.mine_step .step_7 .step_7_content .step_7_info button {
+  width: 143px;
+  height: 44px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+  margin-top: 40px;
+}
+.mine_step .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 120px;
+}
+.mine_step .footer h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 30px;
+}
+.mine_step .footer p {
+  max-width: 411px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  line-height: 160%;
+  margin-bottom: 60px;
+}
+.mine_step .footer .footer_input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mine_step .footer .footer_input > input[type=email] {
+  width: 353px;
+  height: 44px;
+  padding: 0 30px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.25);
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+  outline: none;
+}
+.mine_step .footer .footer_input button {
+  width: 160px;
+  height: 44px;
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  position: absolute;
+  left: 55%;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.mine_step .footer .footer_input button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 @-webkit-keyframes loadingrotate {
