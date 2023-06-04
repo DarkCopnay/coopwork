@@ -666,8 +666,6 @@ body {
   color: white;
   line-height: 160%;
 }
-<<<<<<< Updated upstream
-=======
 .mine_step .step_7 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -830,7 +828,6 @@ body {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
->>>>>>> Stashed changes
 
 @-webkit-keyframes loadingrotate {
   0% {
